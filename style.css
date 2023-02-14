@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;1,400&family=Great+Vibes&family=Libre+Baskerville:ital@1&family=Oswald:wght@200&family=Poppins&family=Yellowtail&display=swap');*{  padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.home-generic{
+    height: 100vh;
+    background-image: url("03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* NAVBAR */
+.nav{
+    width: 100%;  
+    height: 100px;
+    background: rgba(12,12,13,0.78);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding-top: 0px;
+    z-index: 1;
+
+}
+
+.logo{
+    width: 50%;
+    padding-left:5%;
+    padding-top:10px;
+}
+
+.logo-img{
+    width: 190px;
+    height: 78px;
+}
+
+
+.nav-list{
+    width: 50%;
+
+}
+
+.nav-list ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-right: 10%;
+
+}
+
+.nav-list li a{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+
+}
+
+.nav-list li a:hover{
+    background-color: transparent;
+    color: #c0a756;
+}
+
+/* NAVBAR */
+
+/* HOME */
+
+.home{
+    width: 100%;
+    position: relative;
+}
+
+.home-cont
+{
+    width: 100%;
+    /* height: 900px; */
+    position:absolute;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+/* awl sore */
+
+.intro-img{
+    width:400px;
+}
+/* main text */
+
+.main-text{
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+/* tany sora */
+
+.mini-logo{
+    margin-bottom: 1%;
+}
+
+.sub-img{
+    width: 140px;
+}
+
+/* tany text */
+.sub-text h1{
+    color: #ffff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+/* End HOME */
+
+/* about us */
+
+.aboutus-section{
+    width:80%;
+    margin: auto;
+    margin-top:1%;
+}
+
+.aboutus-text{
+    text-align: center;
+}
+
+.aboutus-text h1{
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    color: #383733;
+    margin-bottom:1.5%;
+}
+
+.aboutus-text p{
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-style: italic;
+    color: #777777;
+    margin-bottom:2% ;
+}
+ /* about us */
+
+ .about-gallery{
+    
+    width: 80%;
+    background-color: #ffff;
+    margin: auto;
+ }
+.left-right{
+    width: 100%;
+    display: flex;
+    
+}
+/* left */
+.about-text{
+    width: 50%;
+}
+
+.about-text h1{
+    padding-left: 8%;
+    font-size: 80px;
+    color: #c0a756;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 3%;
+    font-weight: 100;
+}
+
+.about-text .p1{
+    font-size: 20px;
+    font-family: 'Cabin';
+    color: #777777;
+    margin-bottom: 1%;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.about-text .p2{
+    font-size: 20px;
+    font-family: 'Cabin';
+    color: #777777;
+    line-height: 30px;
+    font-weight: 100;
+    padding-left: 0%;
+
+}
+
+span{
+    color: #c0a756;
+}
+.decor-img{
+    width: 80%;
+    margin: auto;
+}
+.decor-img img{
+    width: 100px;
+    margin-left: 45%;
+    
+}
+
+/* end left */
+/* right side */
+.about-image{
+    background-color: #ffff;
+    width: 50%;
+}
+
+.aboutimg{
+    padding-left: 2%;
+   
+    
+}
+/* end right side */
+.about-gallery2{
+    width: 80%;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+ }
+ .left-right2{
+    width: 100%;
+    display: flex;
+    
+}
+
+/* left */
+.about-image2{
+    width: 50%;
+}
+
+/* right */
+.about-text2{
+    width: 50%;
+
+}
+.p2{
+    margin-bottom: 1%;
+}
+.p2,.p3{
+    font-size: 20px;
+    font-family: 'Cabin';
+    color: #777777;
+    line-height: 30px;
+    font-weight: 100;
+    padding-left: 4%;
+
+}
+
+/* first & second gallery END */
+
+/* Trick background */
+/* open hours */
+.openhours{
+    height: 60vh;
+    width:100%;
+    background-image: url('trick.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* bg imag - bg attachment: fixed */
+}
+
+.oh-content{
+    width: 50%;
+    margin: auto;
+}
+
+.twopictext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centertext{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.saperator{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    color: #c0a756;
+    font-size: 25px;
+}
+
+/* open hours left right */
+.textleftright{
+    display:flex ;
+    flex:wrap;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-top: 1%; */
+    
+
+}
+
+.lefttexxt{
+    width: 35%;
+    text-align: center;
+    padding-left: 20%;
+
+}
+
+.lefttexxt h1{
+    color: #B29859;
+    font-family: "Yellowtail", serif;
+    font-size: 35px;
+}
+
+.lefttexxt p{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+
+}
+.imagemiddle{
+    width: 20%;
+    
+}
+.imagemiddle img{
+    padding-left: 50%;
+    height: 300px;
+}
+
+
+.righttexxt{
+    width: 35%;
+    text-align: center;
+    padding-right: 40%;
+}
+
+.righttexxt h1{
+    color: #B29859;
+    font-family: "Yellowtail", serif;
+    font-size:35px;
+
+}
+
+.righttexxt p{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+
+}
+
+.saperatorend{
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+
+}
+
+.menu-container{
+    height: 90vh;
+    background-image: url('menu_left.jpg'),url('menu_right.jpg');
+    background-position: top left , top right;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.minilogo{
+    width: fit-content;
+    margin: auto;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.minilogo img{
+    width: 120px;
+}
+
+.threecontainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.leftone{
+    width: 33%;
+}
+
+.middleone{
+    width: 33%;
+}
+
+.rightone{
+    width: 33%;
+}
+
+.h1menu{
+    text-align: center;
+    color: #B29859;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+
+}
+
+.prices{
+    display:flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.ptext{
+    width: 50%;
+    padding-left: 8%;
+}
+
+
+.muh1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.ptext p{
+    margin-bottom: 3%;
+    font-size: 18px;
+    color: #777777;
+}
+
+.pnumb{
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 10%;
+    font-size: 18px;
+    color:#B29859 ;
+}
+
+.pnumb p{
+    margin-bottom: 30%;
+}
+
+.openhours2{
+    height: 60vh;
+    width:100%;
+    background-image: url('testimonials.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testlogo{
+    width: fit-content;
+    margin: auto;
+    padding-top: 2%;
+}
+.testlogo img{
+    width: 100px;
+}
+
+.quote{
+    width: 80%;
+    margin-top: 2%;
+    margin: auto;
+
+}
+.quote h1{
+    font-size: 30px;
+    color: #B29859;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-bottom: 1%;
+}
+
+.quote p{
+    color: #ffff;
+    font-size:25px ;
+    line-height: 50px;
+    }
+
+.contact-container{
+    height: 100vh;
+    background-color: #0e0e0d;
+    
+}
+
+.h1-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.form-h1 h1{
+    font-size: 30px;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+
+
+}
+
+.h1-img img{
+    width: 70px;
+}
+
+
+.contact-p{
+    width: 80%;
+    margin: auto;
+    color: #777777;
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+
+.form-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.form-left{
+    width: 50%;
+}
+
+.form-right{
+    width: 50%;
+}
+
+form input{
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 70px;
+    width: 90%;
+    height: 80px;
+    background: #2C2A2A;
+    border: none;
+}
+
+.form-right textarea{
+   background: #2C2A2A;
+   /* padding-left: 50px; */
+   color: #777777;
+   border: none;
+   
+
+}
+.end{
+    margin-bottom: 0%;
+}
+
+::placeholder {
+     color: #777777;
+     font-size: 20px;
+     padding-left: 0%;
+
+}
+
+input[type=text]:focus {
+  border: 3px solid #B29859;
+}
+/* submit */
+
+.submit{
+    width: fit-content;
+    margin: auto;
+}
+
+.submit input{
+    width: 210px;
+    height: 70px;
+    background-color: #B29859;
+    color: #ffff;
+    margin-top: 10%;
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.submit input:hover{
+    background-color: #ffff;
+    color:#B29859
+}
+
+
+.location{
+    background-color: #0e0e0d;
+}
+
+
+
+
+.footer{
+    height: 15vh;
+    background-color: #0e0e0d;
+}
+
+.footercontain{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    color: #ffff;
+    justify-content:center;
+}
+
+.med i{
+  width: 100px;
+}
+
+.med i:hover{
+    color:#B29859
+}
+
